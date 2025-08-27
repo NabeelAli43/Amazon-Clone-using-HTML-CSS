@@ -1,0 +1,286 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+.navbar{
+    background-color: #131a22;
+    height: 60px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/* box1 */
+
+.navlogo{
+    padding-top:  5px;
+    height: 50px;
+    width: 135px;
+}
+.logo{
+    background-image: url(pngwing.com.png);
+    background-size: cover;
+    height: 40px;
+    width: 135px;
+}
+.border{
+    border: 1.5px solid transparent;
+}
+.border:hover{
+    border: 1.5px solid white;
+}
+
+/* box2 */
+.navLocation{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.location1{
+    font-size: 14px;
+    color: #ccc;
+    margin-left: 15px;
+}
+.location2{
+    font-size: 16px;
+    color: #fff;
+    margin-left: 3px;
+}
+.locationIcon{
+    display: flex;
+    align-items: center;
+}
+
+/* box3 */
+
+.navSearchBar{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: blue;
+    width: 800px;
+    height: 38px;
+    border-radius: 5px;
+}
+.navSearchBar:hover{
+    border:1.5px solid orange
+}
+.searchSelect{
+    background-color: #e6e6e6;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: none;
+}
+.searchInput{
+    width: 100%;
+    font-size: 15px;
+    border: none;
+}
+.searchIcon{
+    width: 45px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #febd68;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: #0f1111;
+}
+
+/* box4 and box5 */
+
+.Text1{
+    font-size: 12px;
+}
+.Text2{
+    font-size: 14px;
+    font-weight: 700;
+}
+
+
+/* box6 */
+
+
+.navCart i{
+    font-size: 30px;
+}
+.navCart{
+    font-size: 14px;
+    font-weight: 700;
+}
+
+/* panel */
+.panel{
+    display: flex;
+    background-color: #222f3d;
+    color: white;
+    height: 40px;
+    align-items: center;
+}
+.panelAll i{
+    font-size: 25px;
+}
+.panelAll{
+    width: 60px;
+    font-size: 14px;
+    font-weight: 700;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.panelOptions a{
+    color: white;
+    text-decoration: none;
+    width: 90%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+
+}
+
+/* hero Section */
+.heroSection{
+    background-image: url(HeroPic.jpg);
+    background-size: cover;
+    height: 300px;
+
+}
+
+/* shopSection */
+.shopSection{
+    background-color: #ffd004;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.box{
+    margin-top: 10px;
+    height: 390px;
+    width: 23.5%;
+    background-color: white;
+    margin-bottom: 44px;
+    padding: 20px 0px 20px;
+}
+.box div{
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.boxContent{
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+/* footer */
+footer{
+    margin-top: 15px;
+}
+.footerPanel1{
+    color: #ffffff;
+    background-color: #37475a;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+}
+.footerPanel2{
+    padding-top: 45px;
+    padding-bottom: 45px;
+    color: #ffffff;
+    background-color: #222f3d;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.footerPanel2 p{
+    font-weight: 700;
+    font-size: 16px;
+    padding-bottom: 5px;
+}
+.footerPanel2 a{
+    font-size: 14px;
+    color: #dddddd;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.footerPanel3{
+    height: 70px;
+    background-color: #222f3d;
+    color: #ffffff;
+    border-top: 0.5px solid #4b6079;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 80px;
+    padding-right: 80px;
+    justify-content: space-evenly;
+
+}
+.footerlogo{
+    background-image: url(pngwing.com.png);
+    background-size: cover;
+    height: 40px;
+    width: 135px;
+    
+}
+.FooterLanguageSelector{
+    font-size: 13px;
+    height: 33px;
+    width: 115px;
+    background-color: #222f3d;
+    color: #ffffff;
+    border-radius: 8%;
+}
+
+.border2{
+    width:100%;
+    border-bottom: 1.5px solid transparent;
+}
+.border2:hover{
+    width:100%;
+    border-bottom: 1.5px solid white;
+}
+.footerPanel4{
+    padding-top: 10px;
+    font-size: 12px;
+    background-color: #131a22;
+    color: #dddddd;
+    gap:10px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5px;
+}
+.footerPanel4 a{
+    padding-left: 8px;
+    padding-right: 8px;
+    color: #dddddd;
+    text-decoration: none;
+
+}
+.footerPanel5{
+    font-size: 12px;
+    background-color: #131a22;
+    color: #dddddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 30px;
+}
